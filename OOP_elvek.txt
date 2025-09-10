@@ -1,0 +1,7 @@
+Egységbezárás (encapsulation): AZ egyed (objektum) egységbe fogja (a class-on keresztül) a képességeit (metódusait) és a tulajdonságait (attribútumait, adatmezőit). + Adatrejtés --> Az objektum belső állapotát (adatmezőit, property-jeit) elrejtjűk a külvilág elől (private, protected, private ez a default a TS-ben).
+
+Absztrakció: Csak a lényeges tulajdonságokat jelenítjük meg, a részleteket elrejtjűk.
+
+Öröklődés: Egy adott osztály minden képességét, és tulajdonságát átveheti (örökölheti) egy az adott osztályból (extends kulcsszóval) létrehozott gyermek vagy leszármazott osztály. (protected)
+
+Polimorfizmus (sokalakúság): A leszármazott osztály az ősosztály egyes metódusait azonos névvel, de más működési logikával felülírhatja (override). A visszatérési típusnak maradnia kell.
